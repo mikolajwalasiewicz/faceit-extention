@@ -13,3 +13,6 @@ async function fetchData() {
     document.getElementById("concerts").innerHTML = record.data.map(item => `<li>${item.name}</li>`).join('');
 }
 fetchData(); 
+functoin wczytajdane(){
+
+}
