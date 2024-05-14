@@ -1,6 +1,7 @@
 import pyautogui
 import time
 import os
+import pyperclip
 
 def find_and_click_image(image_path):
     try:
@@ -19,14 +20,28 @@ def find_and_click_image(image_path):
         print(f"An error occurred: {e}")
 
 # Replace 'your_image.png' with the path to your screenshot
-find_and_click_image('your_image_3.png')
+find_and_click_image('your_image_8.png')
 time.sleep(1)
-find_and_click_image('your_image.png')
+find_and_click_image('your_image_9.png')
 time.sleep(1)
-find_and_click_image('your_image_2.png')
+find_and_click_image('your_image_10.png')
 time.sleep(1)
-find_and_click_image('your_image_5.png')
+find_and_click_image('your_image_11.png')
 time.sleep(1)
-find_and_click_image('your_image_4.png')
-pyautogui.scroll(-500)
+find_and_click_image('your_image_12.png')
+time.sleep(1)
+find_and_click_image('your_image_14.png')
+
+pyperclip.copy("CHEATING")
+pyautogui.hotkey('ctrl', 'v') 
+
+time.sleep(1)
+find_and_click_image('your_image_15.png')
+time.sleep(1)
+find_and_click_image('your_image_16.png')
+time.sleep(1)
+find_and_click_image('your_image_16.png')
+
+
+
 os.system("python find_all_enemy_team.py")
