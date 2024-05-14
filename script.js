@@ -13,6 +13,14 @@ async function fetchData() {
     document.getElementById("concerts").innerHTML = record.data.map(item => `<li>${item.name}</li>`).join('');
 }
 fetchData(); 
-functoin wczytajdane(){
 
+function wywolajPlikPythona() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log("Odpowiedź z serwera:", this.responseText);
+        }
+    };
+    xhttp.open("GET", "open_faceit_center_coursor.py", true);
+    xhttp.send();
 }
