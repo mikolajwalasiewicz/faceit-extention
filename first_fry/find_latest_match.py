@@ -20,13 +20,14 @@ def find_and_click_image(image_path):
 
 # Replace 'your_image.png' with the path to your screenshot
 find_and_click_image('your_image_3.png')
-time.sleep(1)
+time.sleep(2)
 find_and_click_image('your_image.png')
-time.sleep(1)
+time.sleep(2)
 find_and_click_image('your_image_2.png')
-time.sleep(1)
+time.sleep(2)
 find_and_click_image('your_image_5.png')
-time.sleep(1)
+time.sleep(2)
 find_and_click_image('your_image_4.png')
 pyautogui.scroll(-500)
+time.sleep(2)
 os.system("python find_all_enemy_team.py")

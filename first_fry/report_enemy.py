@@ -38,10 +38,6 @@ pyautogui.hotkey('ctrl', 'v')
 time.sleep(1)
 find_and_click_image('your_image_15.png')
 time.sleep(1)
-find_and_click_image('your_image_16.png')
+find_and_click_image('your_image_17.png')
 time.sleep(1)
 find_and_click_image('your_image_16.png')
-
-
-
-os.system("python find_all_enemy_team.py")
